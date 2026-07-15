@@ -49,6 +49,6 @@ def main():
     print("Wins:")
     print(f'Player: {wincounter["Player"]}')
     print(f'Dealer: {wincounter["AI"]}')
-
+    input("\nPress enter to exit: ")
 if __name__ == "__main__":
     main()
